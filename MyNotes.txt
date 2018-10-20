@@ -1,10 +1,8 @@
 main objective: responsive - accessible - offline
 
 1 - use flexbox displays for main css /*added*/
-
 2 - map id api key
 	two places: main js and index html
-	AIzaSyAPq5y_6SCNTP_FOsF-JPLzB298i3gfP6w
 
 3 - load data for drop downs * all neighborhoods and all cuisines *
 
@@ -34,3 +32,13 @@ Requirments :
 
 
 
+-----------------------------------------
+
+Offline first techniques
+1. Deliver the pages headers and content from a cache on the device, then attempt to fetch updated content from the network
+2. deliver the pages header form a cache, then attempt to fetch the content from the network
+
+-------------------------------------
+
+to run python webserver
+ C:\Users\karin\AppData\Local\Programs\Python\Python36-32\python.exe -m http.server 8000
