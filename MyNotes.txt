@@ -1,0 +1,36 @@
+main objective: responsive - accessible - offline
+
+1 - use flexbox displays for main css /*added*/
+
+2 - map id api key
+	two places: main js and index html
+	AIzaSyAPq5y_6SCNTP_FOsF-JPLzB298i3gfP6w
+
+3 - load data for drop downs * all neighborhoods and all cuisines *
+
+* live server or go to dbhelper files under js and change to 5500 for port -- or just use 
+
+
+4 - media queries in css for all mobile devices
+
+5 - add aria functionality, alt attributes for images
+
+*use the audits in dev tools to see usage %  -- just need accessibility checked
+
+6 - add cache for offline use
+
+--------------------------------------------
+
+Requirments :
+
+#Make the provided site fully responsive. 
+	All of the page elements should be usable and visible in any viewport, including desktop, tablet, and mobile displays. Images shouldn't overlap, and page elements should wrap when the viewport is too small to display them side by side. 
+
+#Make the site accessible. 
+	Using what you've learned about web accessibility, ensure that alt attributes are present and descriptive for images. Add screen-reader-only attributes when appropriate to add useful supplementary text. Use semantic markup where possible, and ARIA attributes when semantic markup is not feasible. 
+
+#Cache the static site for offline use. 
+	Using Cache API and Service Worker, Cache the data for the website so that any page (including images) that has been visited is accessible offline. 
+
+
+
