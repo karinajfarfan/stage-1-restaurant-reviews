@@ -42,3 +42,27 @@ Offline first techniques
 
 to run python webserver
  C:\Users\karin\AppData\Local\Programs\Python\Python36-32\python.exe -m http.server 8000
+
+--------------------
+
+changes:
+
+IN restaurant.html
+
+<header class="header-content">  >>>>>>>>>   <header class="header-grid">
+
+aria-label="bread-crumb >>>>>>> instead of aria-label="Breadcrumb"
+
+class="main-content" >>>>>>>>>> aria-label="main-grid"
+
+<footer id="footer" class="footer-content">  >>>>>>>>>>>>>>>>>>> <footer id="footer" class="footer-grid">
+
+IN index.html
+
+
+IN restaurant_info.js
+
+name.classList.add("review-name");
+date.classList.add("review-date");
+rating.classList.add("review-rating");
+comments.classList.add("review-comments");
